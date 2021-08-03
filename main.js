@@ -409,7 +409,7 @@ window.onload = function() {
 	var messageDisplay = document.querySelector("#message-box");
 	var messageTimeout = setTimeout(function() {
 		messageDisplay.textContent = "SWIPE OR USE ARROW KEYS TO PLAY";
-	}, 1);
+	});
 
 	// Restart button
 	var restartButton = document.querySelector("#restart");
